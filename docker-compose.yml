@@ -3,10 +3,10 @@ version: '3.8'
 services:
   nginx:
     image: nginx:latest
-    container_name: FE-Container
+    container_name: FE-Build-Two-Container
     ports:
-      - "8002:80"
+      - "8005:80"
     volumes:
-      - /root/github-code/Front-End-code/Angular-Login:/usr/share/nginx/html 
+      - /home/GitHubCode/FE-Code-Test/AngularLaw:/usr/share/nginx/html 
     restart: always
 
