@@ -91,7 +91,8 @@ import { GalleriaModule } from 'primeng/galleria';
     MatSlideToggleModule,
     MatDividerModule,
     MatProgressSpinnerModule,
-    NgbModule,
+
+        NgbModule,
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
